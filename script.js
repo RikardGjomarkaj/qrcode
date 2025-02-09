@@ -18,10 +18,10 @@ function generateQRCode() {
             width: 200,
             height: 200
         });
-        document.getElementById("qrcode").style.display = "block"; // Show QR code
+        document.getElementById("qrcode").style.display = "block"; 
         document.getElementById("download").style.display = "block";
         document.getElementById("reset").style.display = "block";
-    }, 1000); // Delay to show animation
+    }, 1000); 
 }
 
 function downloadQRCode() {
